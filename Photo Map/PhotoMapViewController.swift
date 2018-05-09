@@ -13,7 +13,7 @@ class PhotoMapViewController: UIViewController, UIImagePickerControllerDelegate,
 
     @IBOutlet weak var mapView: MKMapView!
     var image: UIImage!
-    var annotations: [PhotoAnnotation]!
+    var annotations: [PhotoAnnotation] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
