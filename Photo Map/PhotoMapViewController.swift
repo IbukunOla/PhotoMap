@@ -29,7 +29,7 @@ class PhotoMapViewController: UIViewController, UIImagePickerControllerDelegate,
         if UIImagePickerController.isSourceTypeAvailable(.camera){
             vc.sourceType = .camera
         } else {
-            vc.sourceType = .camera
+            vc.sourceType = .photoLibrary
         }
         
         self.present(vc, animated: true, completion: nil)
